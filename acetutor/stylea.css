@@ -1,0 +1,126 @@
+﻿body{
+	background: #f3f5f9;
+}
+
+.sidenav{
+	height:100%;
+	width: 280px;
+	position:fixed;
+	z-index:1;
+	top:0;
+	left:0;
+	background-color: #4b4276;
+	overflow:hidden;
+	padding-top:10px;
+}
+
+.sidenav .sidebar h2{
+	color: white;
+	text-transform:uppercase;
+	text-align:center;
+	margin-bottom:30px;
+	font-size: 30px;
+}
+
+.sidenav .sidebar a{
+	padding: 12px;
+	font-size: 19px;
+	color:#bdb8d7;
+	display:block;
+	text-decoration:none;
+}
+
+.sidenav .sidebar ul li{
+	list-style-type:none;
+}
+
+.sidenav .sidebar ul li a{
+	font-size:18px;
+	padding: 8px;
+}
+
+.sidenav .sidebar a .fas{
+	width:25px;
+	padding-right: 10px;
+	padding-left:10px;
+}
+
+.sidenav .sidebar a .far{
+	width:25px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.sidenav .sidebar a:hover{
+	background:#594f8d; /*color when pointing*/
+	color:white;
+}
+
+.sidenav .sidebar .report a .fas{
+	margin-left: 100px;
+}
+
+.sidenav .sidebar .report_content{
+	display:none;
+	position:absolute;
+	width:100%;
+}
+
+.sidenav .sidebar .report:hover .report_content{ /*https://www.w3schools.com/howto/howto_css_dropdown.asp */
+	display:block;
+	z-index:1;
+}
+
+.sidenav .sidebar .logout{
+	position:fixed;
+	text-align: right;
+	color:#4b4276;
+	width:250px;
+	bottom:0px;
+}
+
+.sidenav .sidebar .logout a{
+	padding: 10px;
+	font-size: 19px;
+	font-weight:bold;
+	color: red;
+	display:block;
+	text-decoration:none;
+}
+
+.sidenav .sidebar .logout:hover{
+	background:#594f8d;
+}
+
+.sidenav .sidebar .logout a:hover{
+	color:white;
+}
+
+.sidenav .sidebar .logout a .fas{
+	width:25px;
+	padding-left: 10px;
+}
+
+.main{
+	width:100%;
+	margin-left: 300px;
+	font-family: 'Source Sans Pro', sans-serif;	
+}
+
+.main .header{
+	padding: 20px;
+	font-size: 25px;
+	background:white;
+	color: #717171;
+	border-bottom: 1px solid #e0e4e8;
+	font-weight:bold;
+}
+
+.main .info{
+	margin: 20px;
+	line-height: 25px;
+}
+
+.main .info div{
+	margin-bottom: 20px;
+}
